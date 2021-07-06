@@ -44,7 +44,7 @@ p{
 .text hr{
     border: 2px solid rgb(253,94,53);
     background-color: rgb(253,94,53);
-    width: 200px;
+    width: 180px;
     margin-bottom: 20px;
 }
 .text-chef{
@@ -83,17 +83,15 @@ p{
 
 
 
-.projects-1 p{
-    text-align: justify;
-}
+
+/* ----------------------  about-food ----------------------------- */
+
 .Text-about-me h1{
     font-size: 50px;
 
 }
 
-/* ----------------------  about-me ----------------------------- */
-
-.about-me{
+.about-food{
     display: none;
     text-align: justify;
     display: flex;
@@ -102,47 +100,47 @@ p{
     background-size: cover;
     height: 700px;
 }
-.Text-about-me{
+.Text-about-food{
 
     margin-top: 150px;
     width: 40%;
     padding: 0 auto;
     
 }
-.Text-about-me h1 {
+.Text-about-food h1 {
     font-weight: 400;
     font-size: 50px;
 }
-.Text-about-me h1{
+.Text-about-food h1{
     font-weight: 400;
     font-size: 40px;
 }
-.imgae-about-me{
+.imgae-about-food{
     width: 50%;
   
     
 }
-.imgae-about-me img{
+.imgae-about-food img{
     height: 600px;
     margin-left: 50px;
     margin-top: 100px;
 }
 
-.about-me hr{
+.about-food hr{
     border: 2px solid rgb(253,94,53);
     background-color: rgb(253,94,53);
-    width: 200px;
+    width: 325px;
     margin-bottom: 40px;
    
 }
 .about-button{
     margin-top: 50px;
 }
-/* ----------------------  about-me end ----------------------------- */
+/* ----------------------  about-food end ----------------------------- */
 /* ----------------------  Card-grid ----------------------------- */
 .card-heading{
     text-align: center;
-    margin: 100px 500px 20px 500px;
+    margin: 100px 500px 80px 500px;
 }
 
 .food-carts{
