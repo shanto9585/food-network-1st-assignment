@@ -149,12 +149,12 @@ h1{
 .food-carts{
     display: flex;
     text-align: center;
-    padding: 0 100px;
+    margin: 100px 120px;
 }
 
 .food-cart-1{
     box-shadow: 5px 10px 25px #888888;
-    padding: 20px;
+    padding: 20px 20px 50px;
     margin: 20px;
     border-radius: 20px;
 }
@@ -170,7 +170,7 @@ h1{
     border-radius: 10px;
 }
 .food-cart-1 h3{
-    margin: 15px 0 15px;
+    margin: 50px 0 20px;
     color: rgb(253,94,53);
 
 }
@@ -210,3 +210,13 @@ background-color: black;
 
 }
 /* ----------------------  footer----------------------------- */
+
+
+
+
+
+
+
+
+
+
