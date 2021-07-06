@@ -101,8 +101,6 @@ p{
     background-repeat: no-repeat;
     background-size: cover;
     height: 700px;
-   
-
 }
 .Text-about-me{
 
@@ -144,21 +142,24 @@ p{
 /* ----------------------  Card-grid ----------------------------- */
 .card-heading{
     text-align: center;
-    margin: 100px 300px 20px 300px;
+    margin: 100px 500px 20px 500px;
 }
 
 .food-carts{
     display: flex;
     text-align: center;
-    margin: 80px;
     justify-content: center;
+    margin: 0 150px;
+    
 }
 
 .food-cart-1{
     box-shadow: 5px 10px 25px #888888;
-    padding: 20px 20px 50px;
-    margin: 20px;
+    padding: 20px;
     border-radius: 20px;
+    text-align: center;
+    margin: 20px;
+    width: 25%;
 }
 .card-heading h1{
     font-weight: 600;
@@ -186,10 +187,11 @@ p{
 .social-media-count{
     display: flex;
     box-shadow: 5px 10px 25px #888888;
-    margin: 100px 200px;
+    margin: 100px 250px;
     border-radius: 20px;
     justify-content: space-around;
     padding: 50px;
+    text-align: center;
     
 }
 
@@ -205,31 +207,10 @@ p{
 /* ----------------------  footer----------------------------- */
 .footer{
    padding: 80px ;
-
-background-color: black;
+    background-color: black;
     text-align: center;
     align-items: center;
 
 }
 /* ----------------------  footer----------------------------- */
-
-
-
-
-
-
-
-.food-carts-1{
-    display: flex;
-    text-align: center;
-    margin: 80px;
-    justify-content: center;
-
-}
-.food-cart-2{
-    width: 25%;
-}
-
-
-
 
