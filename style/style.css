@@ -97,7 +97,7 @@ p{
     display: none;
     text-align: justify;
     display: flex;
-    background-image: url(../images/2nd-coverimage.jpg);
+    background-image: url(../images/2nd-coverimage.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 700px;
@@ -144,13 +144,14 @@ p{
 /* ----------------------  Card-grid ----------------------------- */
 .card-heading{
     text-align: center;
-    margin: 100px 300px;
+    margin: 100px 300px 20px 300px;
 }
 
 .food-carts{
     display: flex;
     text-align: center;
-    margin: 100px 120px;
+    margin: 80px;
+    justify-content: center;
 }
 
 .food-cart-1{
@@ -184,7 +185,7 @@ p{
 .social-media-count{
     display: flex;
     box-shadow: 5px 10px 25px #888888;
-    margin: 100px 140px;
+    margin: 100px 150px;
     border-radius: 20px;
     justify-content: space-around;
     padding: 50px;
@@ -204,7 +205,6 @@ p{
 .footer{
    padding: 80px ;
 
-
 background-color: black;
     text-align: center;
     align-items: center;
@@ -217,6 +217,17 @@ background-color: black;
 
 
 
+
+.food-carts-1{
+    display: flex;
+    text-align: center;
+    margin: 80px;
+    justify-content: center;
+
+}
+.food-cart-2{
+    width: 25%;
+}
 
 
 
