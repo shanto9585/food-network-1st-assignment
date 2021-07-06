@@ -3,10 +3,15 @@
    margin: 0;
    padding: 0;
    color: #575757;
+
 }
 h1{
     font-weight: 600;
 }
+p{
+    line-height: 25px;
+}
+
 
 
 /* ----------------------  cover-top ----------------------------- */
@@ -35,10 +40,7 @@ h1{
     font-weight: 600;
     font-size: 50px;
 }
-.text h2{
-    font-weight: 400;
-    font-size: 40px;
-}
+
 .text hr{
     border: 2px solid rgb(253,94,53);
     background-color: rgb(253,94,53);
@@ -56,7 +58,7 @@ h1{
     text-decoration: none;
     color: white;
     padding: 10px 15px;
-    background-image: linear-gradient(rgba(255, 30, 30, 1), rgba(251, 162, 79, 1));
+    background : linear-gradient(45deg , #FBA24F, #FF1E1E);
 }
 
 .menu{
@@ -69,9 +71,7 @@ h1{
 }
 .menu  li{
     margin-top: 100px;
-    text-decoration: none;
-    color: rgb(253,94,53);
-    font-size: 20px;
+    font-size: 15px;
     padding-right: 15px;
     display: inline;
 }
@@ -92,6 +92,7 @@ h1{
 }
 
 /* ----------------------  about-me ----------------------------- */
+
 .about-me{
     display: none;
     text-align: justify;
@@ -105,10 +106,9 @@ h1{
 }
 .Text-about-me{
 
-    margin-top: 200px;
+    margin-top: 150px;
     width: 40%;
     padding: 0 auto;
-    align-items: center;
     
 }
 .Text-about-me h1 {
@@ -125,15 +125,16 @@ h1{
     
 }
 .imgae-about-me img{
-    height: 700px;
+    height: 600px;
     margin-left: 50px;
+    margin-top: 100px;
 }
 
 .about-me hr{
     border: 2px solid rgb(253,94,53);
     background-color: rgb(253,94,53);
     width: 200px;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
    
 }
 .about-button{
@@ -169,7 +170,7 @@ h1{
 .food-cart-1 img{
     border-radius: 10px;
 }
-.food-cart-1 h3{
+.food-cart-1 h2{
     margin: 50px 0 20px;
     color: rgb(253,94,53);
 
@@ -183,7 +184,7 @@ h1{
 .social-media-count{
     display: flex;
     box-shadow: 5px 10px 25px #888888;
-margin: 100px 120px;
+    margin: 100px 140px;
     border-radius: 20px;
     justify-content: space-around;
     padding: 50px;
@@ -192,7 +193,7 @@ margin: 100px 120px;
 
 .count h1{
     font-weight: 800;
-    font-size: 40px;
+    font-size: 48px;
     color: rgba(24, 25, 31, 1);
 }
 .count p{
