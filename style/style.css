@@ -170,6 +170,7 @@ p{
 }
 .food-cart-1 img{
     border-radius: 10px;
+    width: 100%;
 }
 .food-cart-1 h2{
     margin: 50px 0 20px;
